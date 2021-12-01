@@ -1,0 +1,138 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #e3e9f7;
+}
+.nav-item {
+    color: black;
+    font-size: 1rem;
+    font-style: oblique;
+    font-weight: bold;
+}
+.navbar-brand {
+    padding: 10px;
+}
+h2 { 
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    font-weight: 400 ;
+
+}
+.logo {
+    animation: 3s ease-in 3s infinite alternate goLeft;
+}
+
+@keyframes goLeft{
+    0% {
+      transform:  translate(0px) rotateY(10deg); 
+     }
+    100%{
+      transform: translate(0px) rotateY(40deg);
+    }
+  }
+
+.carousel-inner {
+    margin: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 30rem;
+}
+.container-2 {
+    background-color: rgb(107, 156, 211);
+    padding: 50px;
+    width: 100%;
+}
+.container{
+	max-width: 1460px;
+	margin:auto;
+}
+label {
+    margin: 10px;
+}
+.col-md-12{
+    padding-left: 50%;
+}
+.form-label{
+    display: flex;
+    margin: 5px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: black;
+    padding: 70px ;
+}
+.footer-col{
+   width: 33%;
+   padding: 0px 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.container-3 {
+    background-color: rgb(32, 201, 46);
+    padding: 10px;
+    width: 100%;  
+}
+.article{
+    text-align: center;
+    line-height: 30px;
+    margin: 2cm;   
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+@media(max-width: 1000px){
+    .carousel-inner{
+        height: 12rem;
+  }
+  }
+
