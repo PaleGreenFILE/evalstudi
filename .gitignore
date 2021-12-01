@@ -64,3 +64,30 @@ node_modules/
 
 # dotenv environment variables file
 .env
+web/PHP/contact.php
+.gitignore
+web/recaptcha-master/.gitignore
+web/recaptcha-master/.travis.yml
+web/recaptcha-master/composer.json
+web/recaptcha-master/CONTRIBUTING.md
+web/recaptcha-master/LICENSE
+web/recaptcha-master/phpunit.xml.dist
+web/recaptcha-master/README.md
+web/recaptcha-master/examples/example-captcha.php
+web/recaptcha-master/src/autoload.php
+web/recaptcha-master/src/ReCaptcha/ReCaptcha.php
+web/recaptcha-master/src/ReCaptcha/RequestMethod.php
+web/recaptcha-master/src/ReCaptcha/RequestParameters.php
+web/recaptcha-master/src/ReCaptcha/Response.php
+web/recaptcha-master/src/ReCaptcha/RequestMethod/Curl.php
+web/recaptcha-master/src/ReCaptcha/RequestMethod/CurlPost.php
+web/recaptcha-master/src/ReCaptcha/RequestMethod/Post.php
+web/recaptcha-master/src/ReCaptcha/RequestMethod/Socket.php
+web/recaptcha-master/src/ReCaptcha/RequestMethod/SocketPost.php
+web/recaptcha-master/tests/ReCaptcha/ReCaptchaTest.php
+web/recaptcha-master/tests/ReCaptcha/RequestParametersTest.php
+web/recaptcha-master/tests/ReCaptcha/ResponseTest.php
+web/recaptcha-master/tests/ReCaptcha/RequestMethod/CurlPostTest.php
+web/recaptcha-master/tests/ReCaptcha/RequestMethod/PostTest.php
+web/recaptcha-master/tests/ReCaptcha/RequestMethod/SocketPostTest.php
+.vscode/settings.json

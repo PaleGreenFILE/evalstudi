@@ -2,21 +2,12 @@ body,html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #e3e9f7; 
 }
-
-
-.nav-item {
-    color: black;
-    font-size: 1rem;
+.navbar{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
-    font-weight: bold;
+    font-weight: 800;
 }
-nav{
-    width: 100%;
-    height: 90px;
-}
-.navbar-brand {
-    padding: 20px;
-}
+
 h2 { 
     text-align: center;
     font-size: 1rem;
@@ -24,6 +15,25 @@ h2 {
     font-weight: 400 ;
 
 }
+.btn-send{
+   margin-left: 170px;
+}
+label {
+    color: #333;
+}
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+}
+
 .logo {
     animation: 3s ease-in 3s infinite alternate goLeft;
 }
@@ -36,40 +46,36 @@ h2 {
       transform: translate(0px) rotateY(40deg);
     }
   }
-.carousel-inner {
-    margin: 10px;
-    height: 45rem;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 120px;
+
+.carousel-inner {   
+    padding-top: 110px;
+    height: 100%;
+    margin: 1px;
+}
+.carousel-inner img
+{   height: 150px;
+    min-width: 70%;
+    padding-right: 70%;
 }
 .container-2 {
     background-color: rgb(107, 156, 211);
-    padding: 50px;
-    position: sticky;
+    padding: 15px;
     width: 100%;
+    height: 950px;
+}
+.container-4 {    
+    width: 90%;
+    height: 550px;
 }
 
-label {
-    margin: 10px;
-}
-.col-md-12{
-    padding-left: 40%;
-}
-.form-label{
-    display: flex;
-    margin: 5px;
-}
-.row{
-	display: flex;
-	flex-wrap: wrap;
-}
 ul{
 	list-style: none;
 }
 .footer{
 	background-color: black;
     padding: 40px ;
+
+
 }
 .footer-col{
    width: 33%;
@@ -112,13 +118,18 @@ ul{
 }
 .container-3 {
     background-color: rgb(32, 201, 46);
-    padding: 10px;
- 
+    height: 500px;
+    margin-top: 2rem;
 }
-.article{
-    text-align: center;
+body{
+    height: 900px;
+}
 
-    margin: 2cm;   
+#carouselExampleDark {
+    height: 280px;
+}
+.carousel-inner img {
+    height: 50%;
 }
 
 /*responsive*/
@@ -133,6 +144,48 @@ ul{
       width: 100%;
   }
   }
+  @media(max-width: 800px){
+    .card-text,.card-title{
+     height: 40px;
+     width: 100%;
+     font-size: 10px;   
+  }
+  }
+   @media(max-width: 767px){
+    .text-muted, .card-footer{
+     width: 100%;
+     font-size: 9px; 
+ 
+  }
+  }
+  @media(max-width: 767px){
+  .article,h3{
+      font-size: 10px;   
+      height: auto;
+      margin: 2rem;
+  }
+  }
 
+ @media(max-width: 767px){
+ .card{
+     height: 420px; 
+           
+}
+}
+@media(max-width: 992px){
+   .navbar-collapse{
+    background-color: rgb(154, 205, 240);                  
+}
+}
+             
+
+        
+    
+    
+
+    
+
+
+  
 
 
