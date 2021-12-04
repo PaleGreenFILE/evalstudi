@@ -64,7 +64,6 @@ node_modules/
 
 # dotenv environment variables file
 .env
-web/PHP/contact.php
 .gitignore
 web/recaptcha-master/.gitignore
 web/recaptcha-master/.travis.yml
@@ -91,3 +90,4 @@ web/recaptcha-master/tests/ReCaptcha/RequestMethod/CurlPostTest.php
 web/recaptcha-master/tests/ReCaptcha/RequestMethod/PostTest.php
 web/recaptcha-master/tests/ReCaptcha/RequestMethod/SocketPostTest.php
 .vscode/settings.json
+web/pages/contact.php
