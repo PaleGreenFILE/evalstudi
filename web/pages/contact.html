@@ -4,18 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Les Restos Bébés du Coeur ... S'engager aux côtés des Restos c'est permettre à l'association de continuer à bénéficier de soutien tout au long de l'année ...">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta name="description" content="Les Restos Bébés du Coeur ... S'engager aux côtés des Restos c'est permettre à l'association de continuer à bénéficier de soutien tout au long de l'année ...">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="shortcut icon" type="image/ico" href="../assets/favicon.ico" />
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script type="text/javascript">
-        var onloadCallback = function () {
+        var onloadCallback = function() {
             grecaptcha.render('html_element', {
                 'sitekey': '6LcjW3cdAAAAAI3E4vN_RxIYvTdUr6eaBjCvVbgP'
             });
@@ -35,8 +32,7 @@
                 <img src="../assets/Restos_du_coeur_Logo.svg.png" width="80" height="80" alt="">
             </a>
             <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -72,18 +68,14 @@
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label for="form_name">Prénom *</label>
-                                        <input id="form_name" type="text" name="name" class="form-control"
-                                            placeholder="Entrer votre Prénom *" required="required"
-                                            data-error="Votre prénom est requis.">
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Entrer votre Prénom *" required="required" data-error="Votre prénom est requis.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label for="form_lastname">Nom *</label>
-                                        <input id="form_lastname" type="text" name="surname" class="form-control"
-                                            placeholder="Entrer votre Nom *" required="required"
-                                            data-error="Votre nom est requis.">
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Entrer votre Nom *" required="required" data-error="Votre nom est requis.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -92,25 +84,19 @@
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label for="form_email">Email *</label>
-                                        <input id="form_email" type="email" name="email" class="form-control"
-                                            placeholder="Entrer votre email *" required="required"
-                                            data-error="Votre email est requis.">
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Entrer votre email *" required="required" data-error="Votre email est requis.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="form_message">Message *</label>
-                                <textarea id="form_message" name="message" class="form-control" placeholder="Message  *"
-                                    rows="4" required="required" data-error="Merci, de laisser un message."></textarea>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Message  *" rows="4" required="required" data-error="Merci, de laisser un message."></textarea>
                                 <div class="help-block with-errors"></div>
                             </div>
                             <div class="form-group">
-                                <div class="g-recaptcha" data-sitekey="6LcjW3cdAAAAAI3E4vN_RxIYvTdUr6eaBjCvVbgP"
-                                    data-callback="verifyRecaptchaCallback"
-                                    data-expired-callback="expiredRecaptchaCallback"></div>
-                                <input class="form-control d-none" data-recaptcha="true" required
-                                    data-error="Please complete the Captcha">
+                                <div class="g-recaptcha" data-sitekey="6LcjW3cdAAAAAI3E4vN_RxIYvTdUr6eaBjCvVbgP" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                                <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
                                 <div class="help-block with-errors"></div>
                             </div>
                             <input type="submit" class="btn btn-success btn-send" value="Envoyer">
@@ -165,9 +151,7 @@
     <!--END FOOTER-->
 
     <!--SCRIPT SRC-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="../js/validator.js"></script>
     <script src="../js/contact.js"></script>
 </body>
