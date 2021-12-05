@@ -177,6 +177,21 @@ ul{
         
     }
 }
+@media screen and (min-width: 768px) {
+ .c img {
+     width: 400px;
+     height: 300px;
+     margin-bottom: 10px;  
+
+ }
+ .bg-primary{
+     width: 500px;
+ }
+
+    
+}
+
+
 
 
     
