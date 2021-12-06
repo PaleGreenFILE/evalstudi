@@ -82,11 +82,11 @@
                                 <label for="form_message">Message *</label>
                                 <textarea id="form_message" name="message" class="form-control" placeholder="Message  *" rows="4" required="required" data-error="Merci, de laisser un message."></textarea>
                                 <div class="help-block with-errors"></div>
-                            </div>          
                             </div>
-                            <div class="col-md-12">
+                        </div>
+                        <div class="col-md-12">
                             <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
-                            <input type="submit" class="btn btn-success btn-send" value="Envoyer"/>
+                            <input type="submit" class="btn btn-success btn-send" value="Envoyer" />
                             <p class="text-muted">
                                 <strong>*</strong> Ces champs sont requis.
                             </p>
@@ -142,8 +142,10 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6Ldu7oAdAAAAAGEH4LCV-FjPz91RTgIqlqa0zhx4"></script>
     <script>
-        grecaptcha.ready(function () {
-            grecaptcha.execute('6Ldu7oAdAAAAAGEH4LCV-FjPz91RTgIqlqa0zhx4', {action: 'submit'}).then(function (token) {
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6Ldu7oAdAAAAAGEH4LCV-FjPz91RTgIqlqa0zhx4', {
+                action: 'submit'
+            }).then(function(token) {
                 console.info("got token: " + token);
                 document.getElementById('g-recaptcha-response').value = token;
             });
